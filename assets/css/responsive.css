@@ -13,6 +13,9 @@
   .top-banner {
     padding: 11rem;
   }
+  .cat-image img{
+      height: 100px;
+  }
 }
 @media screen and (max-width: 768px) {
   .top-banner {

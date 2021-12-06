@@ -5,6 +5,7 @@
 
 * {
     font-family: "inter";
+  
 }
 /* Box sizing rules */
 *,
@@ -49,7 +50,10 @@ body {
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 /* Make images easier to work with */
 img,
 picture {
@@ -165,4 +169,7 @@ select {
 .top-banner h2 {
     color: #f1c40f;
     font-weight: 800;
+}
+.cat-image img{
+    height: 100px;
 }

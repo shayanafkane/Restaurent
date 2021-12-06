@@ -1,0 +1,23 @@
+@media screen and (max-width: 991px) {
+  .text-content {
+    width: 100%;
+  }
+  .navigation-wrap {
+    text-align: center;
+    background-color: #fff;
+  }
+  .navigation-wrap .nav-link {
+    line-height: 2rem;
+    color: black;
+  }
+  .top-banner {
+    padding: 11rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-banner {
+    padding: 12rem;
+  }
+}
+@media screen and (max-width: 576px) {
+}

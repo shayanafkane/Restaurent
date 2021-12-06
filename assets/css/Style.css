@@ -123,7 +123,17 @@ select {
     box-shadow: none;
     margin-left: 5px;
 }
-
+.navbar-brand {
+    color: #f1c40f;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+.navbar-brand:hover{
+    color: white;
+    transition: all 1s ease-in-out;
+    border: 1px solid #f1c40f;
+}
 /* Change Navbar Scroll */
 
 .navigation-wrap.scroll-on {
@@ -141,4 +151,18 @@ select {
 .navigation-wrap.scroll-on .nav-link:hover,
 .navigation-wrap.scroll-on .nav-link:hover {
     color: #f1c40f;
+}
+/* Top Banner */
+.top-banner {
+    width: 100%;
+    background: url("https://wallpapercave.com/wp/wp2186059.jpg") no-repeat center;
+    background-size: cover;
+    padding: 17rem;
+}
+.top-banner {
+    color: #fff;
+}
+.top-banner h2 {
+    color: #f1c40f;
+    font-weight: 800;
 }

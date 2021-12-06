@@ -1,17 +1,16 @@
 @font-face {
-    font-family: "inter";
-    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+  font-family: "inter";
+  src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 * {
-    font-family: "inter";
-  
+  font-family: "inter";
 }
 /* Box sizing rules */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Remove default margin */
@@ -25,40 +24,40 @@ figure,
 blockquote,
 dl,
 dd {
-    margin: 0;
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role="list"],
 ol[role="list"] {
-    list-style: none;
+  list-style: none;
 }
 
 /* Set core root defaults */
 html:focus-within {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Set core body defaults */
 body {
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-    text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 /* Make images easier to work with */
 img,
 picture {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -66,110 +65,150 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 .main-btn {
-    background-color: #f1c40f;
-    padding: 8px;
+  background-color: #f1c40f;
+  padding: 8px;
 }
 .main-btn:hover {
-    background: transparent;
-    border: 1px solid #f1c40f;
+  background: transparent;
+  border: 1px solid #f1c40f;
 }
 .navigation-wrap {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    z-index: 1000;
-    -webkit-transition: all 0.3 ease-in-out;
-    transition: all 0.3 ease-in-out;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
 }
 .navigation-wrap .nav-item {
-    padding: 0 0.625px;
-    transition: all 0.3 linear;
+  padding: 0 0.625px;
+  transition: all 0.3 linear;
 }
 .navigation-wrap .nav-item .nav-link:hover {
-    color: #f1c40f;
+  color: #f1c40f;
 }
 .navbar-toggler:focus {
-    outline: unset;
-    border: unset;
-    box-shadow: none;
+  outline: unset;
+  border: unset;
+  box-shadow: none;
 }
 .nav-link {
-    font-size: 0.9375rem;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: white;
-    letter-spacing: 1px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 1px;
 }
 .nav-link:active {
-    color: #f1c40f;
+  color: #f1c40f;
 }
 .navigation-wrap .main-btn {
-    padding: 0.3125rem 1.4375rem;
-    box-shadow: none;
-    margin-left: 5px;
+  padding: 0.3125rem 1.4375rem;
+  box-shadow: none;
+  margin-left: 5px;
 }
 .navbar-brand {
-    color: #f1c40f;
-    font-weight: 600;
-    border-radius: 10px;
-    padding: 5px;
+  color: #f1c40f;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 5px;
 }
-.navbar-brand:hover{
-    color: white;
-    transition: all 1s ease-in-out;
-    border: 1px solid #f1c40f;
+.navbar-brand:hover {
+  color: white;
+  transition: all 1s ease-in-out;
+  border: 1px solid #f1c40f;
 }
 /* Change Navbar Scroll */
 
 .navigation-wrap.scroll-on {
-    position: fixed;
-    background-color: fff;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 0.125rem 0 rgb(0, 0, 0, 0.09);
-    transition: all 0.15s ease-in-out 0s;
+  position: fixed;
+  background-color: fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0.125rem 0 rgb(0, 0, 0, 0.09);
+  transition: all 0.15s ease-in-out 0s;
 }
 .navigation-wrap.scroll-on .nav-link {
-    color: black;
+  color: black;
 }
 .navigation-wrap.scroll-on .nav-link:hover,
 .navigation-wrap.scroll-on .nav-link:hover {
-    color: #f1c40f;
+  color: #f1c40f;
 }
 /* Top Banner */
 .top-banner {
-    width: 100%;
-    background: url("https://wallpapercave.com/wp/wp2186059.jpg") no-repeat center;
-    background-size: cover;
-    padding: 17rem;
+  width: 100%;
+  background: url("https://wallpapercave.com/wp/wp2186059.jpg") no-repeat center;
+  background-size: cover;
+  padding: 17rem;
 }
 .top-banner {
-    color: #fff;
+  color: #fff;
 }
 .top-banner h2 {
-    color: #f1c40f;
-    font-weight: 800;
+  color: #f1c40f;
+  font-weight: 800;
 }
-.cat-image img{
-    height: 100px;
+.cat-image img {
+  height: 100px;
+}
+.our-menu .card {
+  border: none;
+}
+.our-menu .link-category-product {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+.our-menu .link-category-product::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+  border: 2px dotted #27ae60;
+  z-index: -1;
+  transform: translateX(-50%) translateY(-50%) scale(0);
+  background: #f1c40f;
+  transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+.card:hover .link-category-product::before {
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.our-menu .cat-title a{
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card:hover .cat-title a{
+    color: #f1c40f;
 }

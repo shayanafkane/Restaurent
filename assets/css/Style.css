@@ -90,7 +90,7 @@ select {
 .main-btn:hover {
     background: transparent;
     border: 1px solid #f1c40f;
-    color: white;
+    
 }
 .navigation-wrap {
     position: fixed;
@@ -134,10 +134,7 @@ select {
     padding: 5px;
 }
 .navbar-brand:hover {
-    color: white;
-    transition: all 1s ease-in-out;
-    border: 1px solid #f1c40f;
-    color: white;
+    color: black;
     transition: all 1s ease-in-out;
     border: 1px solid #f1c40f;
 }
@@ -145,7 +142,7 @@ select {
 
 .navigation-wrap.scroll-on {
     position: fixed;
-    background-color: fff;
+    background-color: #fff;
     top: 0;
     left: 0;
     width: 100%;
@@ -156,7 +153,7 @@ select {
     color: black;
 }
 .navigation-wrap.scroll-on .nav-link:hover,
-.navigation-wrap.scroll-on .nav-link:hover {
+.navigation-wrap.scroll-on .nav-link.active {
     color: #f1c40f;
 }
 /* Top Banner */

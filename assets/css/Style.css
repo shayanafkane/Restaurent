@@ -220,3 +220,37 @@ select {
 .card:hover .cat-title a {
     color: #f1c40f;
 }
+.about-section{
+    background: #2d3436;
+}
+.about-section .card ,
+.about-section .card img{
+    border-radius: 1rem;
+}
+.about-section .text-sec{
+    padding-left: 2rem ;
+}
+.about-section .text-sec p{
+    color: white;
+}
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: #dfe6e9;
+    line-height: 32px;
+    position: relative;
+    margin-right: 30px;
+}
+.food-type ul li::before{
+    position: relative;
+    left: -2rem;
+    color: #f1c40f;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}

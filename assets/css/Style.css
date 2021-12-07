@@ -90,6 +90,7 @@ select {
 .main-btn:hover {
     background: transparent;
     border: 1px solid #f1c40f;
+    color: white;
 }
 .navigation-wrap {
     position: fixed;
@@ -316,4 +317,10 @@ select {
 .rights-text{
     color: #dfe6e9;
     text-align: center;
+}
+.navigation-wrap .main-btn:hover{
+    color: #2d3436;
+}
+.explore-food .main-btn:hover{
+    color: #2d3436;
 }

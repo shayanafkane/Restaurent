@@ -169,8 +169,7 @@ select {
     color: #f1c40f;
     font-weight: 800;
 }
-.text-sec h2,
-.text-content h2 {
+.title-box {
     color: #27ae60;
     font-weight: 900;
 }
@@ -254,15 +253,63 @@ select {
 .text-white-sm {
     color: #6b6b6b;
 }
-.img-custom{
+.img-custom {
     height: 200px;
     border-radius: 10px 10px 4px 4px;
 }
-.explore-food .card{
+.explore-food .card {
     border: none;
     background-color: transparent;
 }
-.explore-food .card img{
+.explore-food .card img {
     border: 15px 15px 0 0;
     object-fit: cover;
+}
+.footer {
+    background: #2d3436;
+}
+.footer .footer-link {
+    font-size: 1rem;
+    color: #2d3436;
+    padding: 0 1.8rem;
+}
+.footer .footer-link:hover {
+    color: #dfe6e9;
+}
+.footer .footer-social a i {
+    font-size: 1.5rem;
+    color: #dfe6e9;
+    padding: 0 1rem;
+}
+.footer .footer-social a i:hover {
+    color: #f1c40f;
+}
+.newsletter .form-control {
+    height: 3.2rem;
+    padding: 0 1.2rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid #dfe6e9;
+    color: #dfe6e9;
+    font-weight: 700;
+}
+.newsletter .main-btn{
+    height: 3.2rem;
+    padding: 0 1.2rem;
+    font-size: 1rem;
+    border-radius: 0;
+    background-color: #dfe6e9;
+    border: 0.1875rem solid #dfe6e9;
+    font-weight: 700;
+}
+.newsletter .main-btn:hover{
+    background-color: #f1c40f;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #f1c40f;
 }

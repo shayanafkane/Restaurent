@@ -16,6 +16,9 @@
   .cat-image img{
       height: 100px;
   }
+  .main-btn:hover{
+    color: black;
+  }
 }
 @media screen and (max-width: 768px) {
   .top-banner {

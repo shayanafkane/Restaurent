@@ -258,3 +258,11 @@ select {
     height: 200px;
     border-radius: 10px 10px 4px 4px;
 }
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+}
+.explore-food .card img{
+    border: 15px 15px 0 0;
+    object-fit: cover;
+}

@@ -19,6 +19,7 @@
   .main-btn:hover{
     color: black;
   }
+
 }
 @media screen and (max-width: 768px) {
   .top-banner {
@@ -26,4 +27,10 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .img-custom{
+    height: auto;
+  }
+  .food-type ul{
+    padding-left: 35px;
+  }
 }

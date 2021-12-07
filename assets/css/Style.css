@@ -49,7 +49,10 @@ body {
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 /* Make images easier to work with */
 img,
 picture {
@@ -87,6 +90,7 @@ select {
 .main-btn:hover {
     background: transparent;
     border: 1px solid #f1c40f;
+    color: white;
 }
 .navigation-wrap {
     position: fixed;
@@ -133,6 +137,9 @@ select {
     color: white;
     transition: all 1s ease-in-out;
     border: 1px solid #f1c40f;
+    color: white;
+    transition: all 1s ease-in-out;
+    border: 1px solid #f1c40f;
 }
 /* Change Navbar Scroll */
 
@@ -165,4 +172,51 @@ select {
 .top-banner h2 {
     color: #f1c40f;
     font-weight: 800;
+}
+.text-sec h2 {
+    color: #27ae60;
+    font-weight: 900;
+}
+.cat-image img {
+    height: 100px;
+}
+.our-menu .card {
+    border: none;
+}
+.our-menu .link-category-product {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.our-menu .link-category-product::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+    border: 2px dotted #27ae60;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    background: #f1c40f;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+.card:hover .link-category-product::before {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.our-menu .cat-title a {
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card:hover .cat-title a {
+    color: #f1c40f;
 }

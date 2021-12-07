@@ -313,3 +313,7 @@ select {
     box-shadow: none;
     border-color: #f1c40f;
 }
+.rights-text{
+    color: #dfe6e9;
+    text-align: center;
+}
